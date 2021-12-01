@@ -1,0 +1,295 @@
+/*Color del enlace*/
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/*Color y decoración cuando se interactúa con el enlace*/
+a:hover {
+	text-decoration: none;
+	color: #0d1ca1;
+}
+
+/*Color del enlace visitado*/
+a:visited {
+	color: #16095f;
+	text-decoration: none;
+}
+
+
+/*Borde y margen en cero*/
+*
+{
+border: 0;
+margin: 0;
+}
+
+/*Estilo del cuerpo del sitio*/
+body
+{
+	background: #ffffff url(images/back_all.jpg) repeat-x top; /*Fondo indicado con url y con repetición de la imagen*/
+	font: 12px Tahoma, Arial, Helvetica, sans-serif; /*Tamaño de la fuente y tipos de fuente*/
+	color: #666666;/*Color del fondo*/
+	margin-top: 10px; /*Margen de arriba*/
+}
+/*Establece el margen y ancho del sitio en general*/
+#main
+{
+margin: 0 auto;
+width: 912px; /*Ancho del contenido*/
+background: url(images/table_back.jpg) repeat-y; /*Fondo de las tablas empleadas en index.html*/
+}
+
+#header
+{
+background: url(images/header.jpg) no-repeat; /*Imagen del encabezado sin repetición*/
+/*Ancho y alto de la imagen*/
+width: 916px;
+height: 278px;
+}
+
+#logo
+{
+padding-left: 40px; /*Espacio de relleno a la izquierda*/
+text-align: left; /*Alineación del texto*/
+padding-top: 190px; /*Espacio de relleno arriba*/
+height: 40px; /*Altura*/
+}
+
+#logo a {
+	text-decoration: none; /*Sin decoración en el texto*/
+	text-transform: lowercase; /*En minúsculas*/
+	font-size: 16px; /*Tamaño de la fuente*/
+	color: #ffffff; /*Color de la fuente*/
+	font-weight: bold; /*Especifica el grueso de la letra*/
+}
+
+
+#logo H2 a
+{
+font-size: 10px;
+}
+
+
+#content
+{
+width: 870px;
+padding: 15px;
+}
+
+#left
+{
+width: 580px;
+padding: 10px;
+}
+
+#left H1
+{
+color: #233D7B;
+margin: 0;
+padding: 0;
+font-size: 24px;
+font-variant: small-caps; /*Variante de la fuente en mayúsculas pequeñas*/
+}
+#left H2
+{
+color: #233D7B;
+margin: 0;
+padding: 0;
+font-size: 18px;
+padding-top: 10px;
+font-variant: small-caps;
+}
+
+#left H3
+{
+color: #233D7B;
+margin: 0;
+padding: 10px;
+font-size: 15px;
+padding-top: 10px;	
+
+}
+
+#left p
+{
+color: #000000;
+margin: 0;
+padding: 0;
+font-size: 12px;
+padding-top: 10px;	
+text-align:justify;	
+}
+
+#left a
+{
+ color: #2500D6;
+}
+
+#left a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+#left a:visited {
+	color: #75006E;
+}
+#left dt
+{
+color: #233D7B;
+margin: 0;
+padding: 0;
+font-size: 18px;
+padding-top: 10px;
+font-variant: small-caps;
+}
+
+#left dd
+{
+color: #000000;
+margin: 0;
+padding: 0;
+font-size: 12px;
+padding-top: 10px;
+
+}
+
+.small
+{
+margin: 15px;
+padding: 5px;
+border: 1px solid #99A067 /*Ancho y color del borde*/
+}
+
+#right
+{
+float: right;
+width: 254px;
+}
+#calendar1 {
+	padding: 0 10px 20px 10px;
+}
+
+#calendar table {
+	width: 100%;
+	text-align: center;
+}
+
+#calendar thead {
+	background: #F1F1F1;
+}
+
+#calendar tbody td {
+	border: 1px solid #F1F1F1;
+}
+
+
+#calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar #wk {
+	background: #b1b1b1;
+	border: 0;
+	font-weight: bold;
+	color: #ffffff
+}
+
+#calendar #vc1 {
+	background: #0059ff;
+	border: 0;
+	font-weight: bold;
+	color: #ffffff
+}
+#calendar #vc2 {
+	background: #ffd000;
+	border: 0;
+	font-weight: bold;
+	color: #ffffff
+}
+#sidebar 
+{
+width: 254px;
+}
+
+#sidebar ul 
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: url(images/title_back.jpg) no-repeat;
+}
+
+#sidebar li 
+{
+	margin-bottom: 15px;
+
+}
+
+#sidebar li ul {
+	padding: 10px;
+	border-top: none;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 3px 0;
+}
+
+
+#sidebar li h2 {
+	height: 34px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+	background: #014397 url(images/title2.jpg) no-repeat;
+	font-size: 18px;
+	color: #ffffff;
+	text-align:center;
+}
+
+#sidebar a:link {
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+#sidebar a:visited {
+		text-decoration: none;
+}
+
+#sidebar li a {
+	padding-left: 10px;
+	background: url(images/img09.gif) no-repeat 1px 5px;
+}
+
+
+#footer
+{
+	background: url(images/footer.jpg) repeat-x;
+	height: 52px;
+	font-size: 10px;
+	color: #ffffff;
+	padding-top: 20px;
+	text-align: center;
+	border-top: #ffffff solid 5px;
+}
+
+#footer a
+{
+color: #ffffff;
+font-size: 10px;
+text-decoration: none;
+}
+.padding
+{
+padding: 10px;
+color:#FF0000;
+font-weight: bold;
+}
+
+#destacada {
+	width: 580px;
+	height: 300px;
+  }
+  
